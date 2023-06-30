@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Servivces\AuthService.cs~RF52fd04bb.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\" />
+    <Folder Include="Entities\" />
+    <Folder Include="Servivces\" />
+    <Folder Include="Quieries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Tools.Ado" Version="1.0.0" />
+    <PackageReference Include="Tools.Cqs" Version="1.0.1" />
+  </ItemGroup>
+
+</Project>
